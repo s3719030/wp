@@ -10,6 +10,7 @@
     <link rel="stylesheet" type ="text/css" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <script src='../wireframe.js'></script>
+    </head>
 
 
 <header>
@@ -21,22 +22,19 @@
 <nav class="toy">
       <ul>
 
-    <li><a href="#" >Contact Us</a></li>
-    <li><a href="about.html" >About Us</a></li>
-    <li><a href="#" >Products</a></li>
-    <li><a href="#" >Lighting</a></li>
+    <li><a href="login.php" >Login</a></li>
+    <li><a href="about.php" >About Us</a></li>
+    <li><a href="products.php" >Products</a></li>
+    <li><a href="index.php" >Home</a></li>
     </ul> 
     </nav> 
     </div>
 
     <section id="showcase">
       <div class="container">
-        <h1>Your new sparkies, servicing all around victoria</h1>
-        <p class="para">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h1>Your new sparkies, Now servicing all around victoria</h1>
+        <p class="para">We, at Harry Electricals, beleive in a world that runs entirely on renewable energy. Join us on the journey to bringing green renewable energy to every household in Australia.Upgrading one of your household lights to LED, results in 1 tonne of CO2 being removed from the atmosphere. Together let's take advantage of renewable energy sources such as LED's and Solar energy to help prolong the life of our earth.</p>
+
         <img id="logo2" src="../../media/logo-name.png" alt="HarryElectricals">
 
       </div>
@@ -47,11 +45,11 @@
     <section id="newsletter">
       <div class= "container">
         <h1>Get In Touch With Us Now </h1>
-        <form id="news-form" action="process.php">
-          <input type="email" placeholder="Enter Email..."> <br>
-          <input type="text" placeholder="Enter you name"> <br>
-          <input type="text" placeholder="Enter your Adress"> <br>
-          <input type="text" placeholder="Enter the amount of Lights you have"><br>
+        <form id="news-form" action="https://titan.csit.rmit.edu.au/~e54061/wp/processing.php?ref={{Enquiry}}" method="post">
+          <input type="text" placeholder="Enter your Full Name"> <br>
+          <input type="text" placeholder="Enter your Adress or Suburb"> <br>
+          <input type="Email" placeholder="Email *optional"> <br>
+          <input type="text" placeholder="What electrical work are you enquiring about"><br>
           <button type="submit" class="button1"> Get in touch Now</button>
         </form>
         
@@ -61,24 +59,21 @@
     </div>
 </header>
 
-  </head>
+  
 
   <body>
     <div id="WhatWeDo">
         <h1>What we do</h1>
-        <p>Established in 2011, Harry Electricals has proudly helped many homes and businesses meet their electrical needs. As an Australian-owned company, we take pride in helping people save on electricity costs while helping the environemnt.
-
-            As an accredited company, we are authorised to install new energy-efficient products in Victoria and New South Wales homes and businesses and create energy-efficiency certificates under both schemes.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <p> Established in 2011, Harry Electricals has proudly helped many homes and      businesses meet their electrical needs. As an Australian-owned company, we take pride in helping people save on electricity costs while helping the environemnt.
+        As an accredited company, we have the authority to install energy-saving products in commercial and residential properties in victoria and NSW.
+            The VEET scheme works by the an accredited company like us installing products in residential and commercial properties, and collecting exisitng decomissioned product from the customer. The existing product and proof of address is then used to generate certificates and claim from the government. This scheme was started to encourage the use of renewable energy sources. Harry Electricals also specialises in fields other than renewable energy, such as smart-meter installation, and general electrical works in residential properties.
 
             </p>
 
             <img id="meter" src="../../media/meter.jpg">
+            <h2 id="poll" >call us now: 0412345678</h2>
+            <h3 id="poll" >Address:1 Grove Street, Caroline Springs 3023</h3>
+
         
       </div>
 </body>
