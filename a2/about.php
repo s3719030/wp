@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no"/>
-    <title>Harry Electricals</title>
+    <title>About Harry Electricals</title>
     
     <!-- Keep wireframe.css for debugging, add your css to style.css -->
     <link id='wireframecss' type="text/css" rel="stylesheet" href="../wireframe.css" disabled>
+    <link rel="icon" href="../../media/plug.png" type="image/gif" sizes="16x16">
     <link rel="stylesheet" type ="text/css" href="https://fonts.googleapis.com/css?family=Sawarabi+Mincho">
     <link id='stylecss' type="text/css" rel="stylesheet" href="css/style.css">
     <script src='../wireframe.js'></script>

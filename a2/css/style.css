@@ -82,6 +82,11 @@ h1, h2, h3, h4, h5, h6, ul, ol, li {
 	padding-right: 20px;
 	color: #ffffff;
 }
+.button1:hover {
+	cursor: pointer;
+	background-color: blue;
+	transition: 0.5s ease;
+}
 
 #boxes {
 	margin-top: 20px;
